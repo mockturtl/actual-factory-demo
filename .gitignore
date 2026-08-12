@@ -2,7 +2,6 @@
 .dolt/
 *.db
 .beads-credential-key
-.beads/
 
 # Claude Code local settings. Pack overlays may intentionally contain
 # overlay/.claude/settings.json and should be tracked.
@@ -26,3 +25,7 @@
 # review commentary, so a broad `git add -A` must never sweep them into a PR.
 .architect/
 .reviewer/
+
+# Gas City
+.beads/*
+!.beads/identity.toml
